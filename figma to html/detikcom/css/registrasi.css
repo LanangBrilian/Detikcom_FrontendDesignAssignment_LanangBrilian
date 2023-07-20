@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+}
+
+.banner-01 {
+    width: auto;
+    height: 400px;
+    background-image: url(/img/header.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-01 p {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 41.667% */
+}
+
+.navbar {
+    width: auto;
+    background-color: #007CBD;
+    display: flex;
+    padding: 15px 100px;
+    align-items: center;
+    gap: 202px;
+}
+
+.navbar ul {
+    width: 846px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;    
+    gap: 30px;
+}
+
+.navbar ul li {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: none;
+}
+
+.navbar ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navbar button {
+    display: flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 100px;
+    color: #007CBD;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
